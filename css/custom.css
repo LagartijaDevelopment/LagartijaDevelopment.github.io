@@ -4,9 +4,30 @@
 	background-position: center bottom
 }
 
+/* Section --------------------------------------------------------------------------- */
+
+.section[data-parallax="3d"] {
+	overflow: hidden
+}
 .section .mfn-parallax {
 	position: absolute;
 	left: 0;
 	top: 0;
 	max-width: none!important
+}
+.wrap[data-parallax="3d"] {
+	overflow: hidden;
+	position: relative
+}
+.wrap[data-parallax="3d"]>.mcb-wrap-inner, .wrap[data-parallax="3d"]>.column {
+	position: relative
+}
+.section.center {
+	text-align: center
+}
+.section.no-margin .column, .section.no-margin-v .column {
+	margin-bottom: 0;
+}
+.the_content_wrapper pre {
+	margin-bottom: 20px
 }
