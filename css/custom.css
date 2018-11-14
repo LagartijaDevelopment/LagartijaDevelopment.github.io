@@ -1,0 +1,12 @@
+#Header_wrapper.bg-new-custom {
+	background-image: url(../images/home_internet_subheader1.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom
+}
+
+.section .mfn-parallax {
+	position: absolute;
+	left: 0;
+	top: 0;
+	max-width: none!important
+}
