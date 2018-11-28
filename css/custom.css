@@ -1,36 +1,26 @@
-#Header_wrapper.bg-new-custom {
-	background-image: url(../images/home_internet_subheader1.jpg);
+/* Index Second Section */
+/* Highlight section */
+
+.highlight-left:after, .highlight-right:after {
+	background: #000d21;
+}
+@media only screen and (max-width: 767px) {
+	.highlight-left .column:first-child, .highlight-right .column:last-child {
+		background: #000d21;
+	}
+}
+.highlight-left:after, .highlight-right:after {
+	background-image: url(../images/home_jet_welcome_bg2.jpg);
 	background-repeat: no-repeat;
-	background-position: center bottom
+	background-position: left top
+}
+.section-border-bottom {
+	border-bottom: 1px solid #3f4c5f
 }
 
-/* Section --------------------------------------------------------------------------- */
+/* End of Index Second Section */
 
-.section[data-parallax="3d"] {
-	overflow: hidden
-}
-.section .mfn-parallax {
-	position: absolute;
-	left: 0;
-	top: 0;
-	max-width: none!important
-}
-.wrap[data-parallax="3d"] {
-	overflow: hidden;
-	position: relative
-}
-.wrap[data-parallax="3d"]>.mcb-wrap-inner, .wrap[data-parallax="3d"]>.column {
-	position: relative
-}
-.section.center {
-	text-align: center
-}
-.section.no-margin .column, .section.no-margin-v .column {
-	margin-bottom: 0;
-}
-.the_content_wrapper pre {
-	margin-bottom: 20px
-}
+
 
 /* Agro */
 /* Accordion & Toggle */

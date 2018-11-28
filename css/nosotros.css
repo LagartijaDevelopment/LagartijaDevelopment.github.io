@@ -1,0 +1,33 @@
+/* Slider */
+#nosotros-page #Header_wrapper.bg-new-custom {
+	background-image: url(../images/home_internet_subheader1.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom
+}
+
+/* Parallax section */
+#nosotros-page .section[data-parallax="3d"] {
+	overflow: hidden
+}
+#nosotros-page .section .mfn-parallax {
+	position: absolute;
+	left: 0;
+	top: 0;
+	max-width: none!important
+}
+#nosotros-page .wrap[data-parallax="3d"] {
+	overflow: hidden;
+	position: relative
+}
+#nosotros-page .wrap[data-parallax="3d"]>.mcb-wrap-inner, .wrap[data-parallax="3d"]>.column {
+	position: relative
+}
+#nosotros-page .section.center {
+	text-align: center
+}
+#nosotros-page .section.no-margin .column, .section.no-margin-v .column {
+	margin-bottom: 0;
+}
+#nosotros-page .the_content_wrapper pre {
+	margin-bottom: 20px
+}
