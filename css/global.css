@@ -5861,6 +5861,10 @@ a.icon_bar_twitter span.b {
 	background: #32ccfe;
 	color: #fff
 }
+a.icon_bar_github span.b {
+	background: #253033;
+	color: #fff
+}
 a.icon_bar_vimeo span.b {
 	background: #1ca7cc;
 	color: #fff
