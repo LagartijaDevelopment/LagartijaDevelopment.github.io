@@ -72,23 +72,15 @@
                                                 <a href="index.html#reasons"><span>¿Por qué escogernos?</span></a>
                                             </li>
                                             <li>
-                                                <a href="index.html#device"><span>Contacto</span></a>
+                                                <a href="index.html#contact"><span>Contacto</span></a>
                                             </li>
                                         </ul>
                                     </nav><a class="responsive-menu-toggle" href="#"><i class="icon-menu"></i></a>
                                 </div>
-                                <!-- Header Searchform area-->
-                                <div class="search_wrapper">
-                                    <form method="get" action="#">
-                                        <i class="icon_search icon-search"></i><a href="#" class="icon_close"><i class="icon-cancel"></i></a>
-                                        <input type="text" class="field" name="s" placeholder="Enter your search" />
-                                        <input type="submit" class="submit flv_disp_none" value="" />
-                                    </form>
-                                </div>
                             </div>
                             <div class="top_bar_right">
                                 <div class="top_bar_right_wrapper">
-                                    <a href="#" class="button button_theme button_js action_button"><span class="button_label">¡Contrátanos!</span></a>
+                                    <a href="index.html#contact" class="button button_theme button_js action_button"><span class="button_label">¡Contrátanos!</span></a>
                                 </div>
                             </div>
                         </div>
@@ -106,11 +98,12 @@
                                         <br> un sitio web?
                                     </div>
                                     <div class="tp-caption mfnrsitservicemediumdark sfb tp-resizeme" data-x="center" data-hoffset="0" data-y="center" data-voffset="10" data-speed="900" data-start="2000" data-easing="Power3.easeInOut" data-splitin="none" data-splitout="none" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 6; max-width: auto; max-height: auto; white-space: nowrap;">
-                                        Tu trabajo es contactarnos, entregarte un trabajo
+                                        Tu trabajo es contactarnos, entregarte un resultado
                                         <br> impresionante, el nuestro.
                                     </div>
                                     <div class="tp-caption tp-fade" data-x="center" data-hoffset="0" data-y="center" data-voffset="125" data-speed="900" data-start="2700" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 7;">
-                                        <a href="index.html#offer" class="scroll"><img src="images/home_itservice_slider_button.png" alt="">
+                                        <a class="button button_js scroll button_theme action_button" href="index.html#offer">
+                                            <span class="button_label">SERVICIOS</span>
                                         </a>
                                     </div>
                                 </li>
@@ -125,7 +118,8 @@
                                         <br> impresionante, el nuestro.
                                     </div>
                                     <div class="tp-caption tp-fade" data-x="center" data-hoffset="0" data-y="center" data-voffset="125" data-speed="900" data-start="2700" data-easing="Power3.easeInOut" data-elementdelay="0.1" data-endelementdelay="0.1" data-endspeed="300" style="z-index: 7;">
-                                        <a href="index.html#offer" class="scroll"><img src="images/home_itservice_slider_button.png" alt="">
+                                        <a class="button button_js scroll button_theme action_button" href="index.html#offer">
+                                            <span class="button_label">SERVICIOS</span>
                                         </a>
                                     </div>
                                 </li>
@@ -380,7 +374,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="section" id="device" style="padding-top:80px; padding-bottom:30px; background-color:#f8f8f8">
+                        <div class="section" id="contact" style="padding-top:80px; padding-bottom:30px; background-color:#f8f8f8">
                             <div class="section_wrapper clearfix">
                                 <div class="items_group clearfix">
                                     <!-- One full width row-->
@@ -415,18 +409,21 @@
                                                 <div class="screen-reader-response"></div>
 
                                                 <div id="contactWrapper">
-                                                    <form id="contactform">
+                                                    <form id="contactform" action="https://formspree.io/pablo@lagartijadevelopment.com" method="POST">
                                                         <div class="column one" style="margin-bottom: 2px;">
                                                             <input placeholder="Tu nombre" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
                                                         </div>
                                                         <div class="column one" style="margin-bottom: 2px;">
-                                                            <input placeholder="Tu correo" type="email" name="email" id="email" size="40" aria-required="true" aria-invalid="false" />
+                                                            <input placeholder="Tu correo" type="email" name="_replyto" id="email" size="40" aria-required="true" aria-invalid="false" />
+                                                        </div>
+                                                        <div class="column one" style="margin-bottom: 2px;">
+                                                            <input placeholder="Asunto" type="text" name="_subject" id="subject" size="40" aria-required="true" aria-invalid="false" />
                                                         </div>
                                                         <div class="column one" style="margin-bottom: 2px;">
                                                             <textarea placeholder="Mensaje" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
                                                         </div>
                                                         <div class="column one" style="margin-bottom: 0px;">
-                                                            <input type="button" value="Contrátanos" id="submit" onClick="return check_values();">
+                                                            <input type="submit" value="Contrátanos" id="submit">
                                                         </div>
                                                     </form>
                                                 </div>
