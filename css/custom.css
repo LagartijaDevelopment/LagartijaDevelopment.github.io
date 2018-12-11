@@ -2,3 +2,47 @@ a.icon_bar_github span.b {
     background: #253033;
     color: #fff;
 }
+
+/* Section of Benefits */
+
+#benefits-container h2, 
+#benefits-container h2 a,
+#benefits-container h2 a:hover {
+	color: #ffffff;
+}
+
+#benefits-container h1,
+#benefits-container h2, 
+#benefits-container h3, 
+#benefits-container h4, 
+#benefits-container .text-logo #logo {
+	font-family: "Exo 2", Arial, Tahoma, sans-serif;
+}
+
+#benefits-container h2 {
+	font-size: 40px;
+	line-height: 50px;
+	font-weight: 700;
+	letter-spacing: 0px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    #benefits-container h2 {
+		font-size: 34px;
+		line-height: 43px;
+	}
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    #benefits-container h2 {
+		font-size: 30px;
+		line-height: 38px;
+	}
+}
+
+@media only screen and (max-width: 479px) {
+    #benefits-container h2 {
+		font-size: 24px;
+		line-height: 30px;
+	}
+}
