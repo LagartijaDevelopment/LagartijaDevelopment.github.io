@@ -3,6 +3,11 @@ a.icon_bar_github span.b {
     color: #fff;
 }
 
+/* Contratanos Button */
+#Top_bar a.button.action_button {
+	top: 12px !important;
+}
+
 /* Section of Benefits */
 
 #benefits-container h2, 
