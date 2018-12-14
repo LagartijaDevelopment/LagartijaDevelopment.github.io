@@ -852,6 +852,10 @@ p.flv_align_right, div.flv_align_right {
 	float: right;
 }
 
-#testimonials {
-	background: linear-gradient(to bottom right, #8b2d6f, #333b8c);
+#benefits-container {
+	background: url(../images/home_internet2_sectionbg5.png),linear-gradient(to bottom right, #8b2d6f, #333b8c);
+}
+
+#benefits-container p {
+	color: lightgray;
 }
