@@ -3,11 +3,6 @@ a.icon_bar_github span.b {
     color: #fff;
 }
 
-/* Contratanos Button */
-#Top_bar a.button.action_button {
-	top: 12px;
-}
-
 /* Section of Benefits */
 
 #benefits-container h2, 
@@ -42,6 +37,23 @@ a.icon_bar_github span.b {
     #benefits-container h2 {
 		font-size: 30px;
 		line-height: 38px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#benefits-container .section_wrapper,
+	#benefits-container .container,
+	#benefits-container .four.columns .widget-area {
+		width: calc(100% - 67px)!important;
+	}
+	#benefits-container .section_wrapper .mcb-wrap,
+	#benefits-container .section_wrapper .column,
+	#benefits-container .container .column,
+	#benefits-container .sections_group,
+	#benefits-container .four.columns {
+		margin: 0;
+		width: 100%!important;
+		clear: both;
 	}
 }
 
