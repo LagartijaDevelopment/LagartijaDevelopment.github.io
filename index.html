@@ -387,7 +387,7 @@
                                                 <div class="screen-reader-response"></div>
 
                                                 <div id="contactWrapper">
-                                                    <form id="contactform" method="POST">
+                                                    <form id="contactform" action="https://formspree.io/contacto@lagartijadevelopment.com" method="POST">
                                                         <div class="column one" style="margin-bottom: 2px;">
                                                             <input placeholder="Tu nombre" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
                                                         </div>
@@ -595,15 +595,6 @@
                 retinaEl.attr("src", "images/retina-itservice.png").width(retinaLogoW).height(retinaLogoH)
             }
         });
-	</script>
-
-	<script>
-		var full_address = 'https://formspree.io/';
-		full_address += 'contacto';
-		full_address += '@';
-		full_address += 'lagartijadevelopment';
-		full_address += '.com';
-		jQuery('#contactform').attr('action', full_address);
 	</script>
 	
 	<script>
