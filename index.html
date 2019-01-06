@@ -387,7 +387,7 @@
                                                 <div class="screen-reader-response"></div>
 
                                                 <div id="contactWrapper">
-                                                    <form id="contactform" action="https://formspree.io/contacto@lagartijadevelopment.com" method="POST">
+                                                    <form id="contactform" method="POST">
                                                         <div class="column one" style="margin-bottom: 2px;">
                                                             <input placeholder="Tu nombre" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
                                                         </div>
@@ -467,7 +467,7 @@
                     <div class="column one">
                         <a id="back_to_top" href="#" class="button button_left button_js"><span class="button_icon"><i class="icon-up-open-big"></i></span></a>
                         <div class="copyright">
-                            &copy; 2018 Lagartija Development - Todos los derechos reservados.
+                            &copy; <span id="actual-year"></span> Lagartija Development - Todos los derechos reservados.
                         </div>
                         <!--Social info area-->
                         <ul class="social"></ul>
@@ -595,7 +595,22 @@
                 retinaEl.attr("src", "images/retina-itservice.png").width(retinaLogoW).height(retinaLogoH)
             }
         });
-    </script>
+	</script>
+
+	<script>
+		var full_address = 'https://formspree.io/';
+		full_address += 'contacto';
+		full_address += '@';
+		full_address += 'lagartijadevelopment';
+		full_address += '.com';
+		jQuery('#contactform').attr('action', full_address);
+	</script>
+	
+	<script>
+		var date = new Date();
+		var actualYear = date.getFullYear();
+		jQuery('#actual-year').append(actualYear);
+	</script>
 
 </body>
 
