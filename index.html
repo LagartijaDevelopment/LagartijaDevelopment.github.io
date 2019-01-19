@@ -12,7 +12,7 @@
 	<!-- Basic Page Needs -->
 	<meta charset="utf-8">
 	<title>Lagartija Development - Desarrollo de Sitios Web en Ensenada</title>
-	<meta name="description" content="Empresa de desarrollo de sitios web y e-commerce">
+	<meta name="description" content="Empresa de desarrollo de sitios web, e-commerce y aplicaciones en la ciudad de Ensenada, Baja California">
 	<meta name="author" content="Lagartija Development">
 
 	<!-- Mobile Specific Metas -->
@@ -435,26 +435,29 @@
 												<div class="screen-reader-response"></div>
 
 												<div id="contactWrapper">
-													<form id="contactform" action="https://formspree.io/contacto@lagartijadevelopment.com" method="POST">
+													<form id="contactform">
 														<div class="column one" style="margin-bottom: 2px;">
-															<input placeholder="Tu nombre" type="text" name="name" id="name" size="40" aria-required="true"
-															 aria-invalid="false" />
+															<input placeholder="Tu nombre" type="text" name="name" id="name" size="40" aria-required="true" aria-invalid="false" />
 														</div>
 														<div class="column one" style="margin-bottom: 2px;">
-															<input placeholder="Tu correo" type="email" name="_replyto" id="email" size="40" aria-required="true"
-															 aria-invalid="false" />
+															<input placeholder="Tu correo" type="email" name="email" id="email" size="40" aria-required="true" aria-invalid="false" />
 														</div>
 														<div class="column one" style="margin-bottom: 2px;">
-															<input placeholder="Asunto" type="text" name="_subject" id="subject" size="40" aria-required="true"
-															 aria-invalid="false" />
-														</div>
-														<div class="column one" style="margin-bottom: 2px;">
-															<textarea placeholder="Mensaje" name="body" id="body" style="width:100%;" rows="10" aria-invalid="false"></textarea>
+															<textarea placeholder="Mensaje" name="subject" id="subject" style="width:100%;" rows="10" aria-invalid="false"></textarea>
 														</div>
 														<div class="column one" style="margin-bottom: 0px;">
-															<input type="submit" value="Contrátanos" id="submit">
+															<button type="submit" id="submit">Contrátanos</button>
 														</div>
 													</form>
+												</div>
+												<div id="success-message">
+													<span>Mensaje enviado satisfactoriamente</span>
+												</div>
+												<div id="failed-message">
+													<span>Error al enviar mensaje</span>
+												</div>
+												<div id="wrong-data">
+													<span>Error en los datos</span>
 												</div>
 											</div>
 										</div>
@@ -544,6 +547,7 @@
 	<script src="js/scripts.js"></script>
 	<script src="js/email.js"></script>
 	<script src="js/separator.js"></script>
+	<script src="js/contact.js"></script>
 
 	<script src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 	<script src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
